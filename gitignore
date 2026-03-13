@@ -1,0 +1,32 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# virtual environments
+venv/
+env/
+.env/
+
+# jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# data files (too large for git — download from Kaggle)
+data/*.csv
+
+# model weights — use Git LFS for these
+# uncomment if models exceed GitHub's 100MB limit:
+# models/*.joblib
+# models/distilbert-toxic/
